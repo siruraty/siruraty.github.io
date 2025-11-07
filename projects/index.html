@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — [Your Name]</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Projects</h1>
+      <nav>
+        <a href="../">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="project">
+        <h2><a href="thesis.html">Master’s Thesis</a></h2>
+        <p>Exploring predictive modeling and data analytics in health insurance.</p>
+      </div>
+
+      <div class="project">
+        <h2><a href="project1.html">Project 1</a></h2>
+        <p>Coming soon — a small analytics project currently in development.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> [Your Name]</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
