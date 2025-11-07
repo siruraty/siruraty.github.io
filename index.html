@@ -1,32 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Siru Räty</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: #f2f2f2;
-      }
-      h1 {
-        color: #333;
-      }
-      .card {
-        background: white;
-        padding: 20px;
-        margin: 20px auto;
-        width: 300px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hello World, I'm Siru!</h1>
-    <div class="card">
-      <p>Welcome to my page.</p>
-      <p>I’m learning stuff.</p>
-    </div>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Your Name]</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Siru Räty</h1>
+      <p class="subtitle">Data analysis • Healthcare • Healthtech </p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello world! I’m Siru.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li>
+            <h3>📊 Analytics Dashboard</h3>
+            <p>A simple dashboard that visualizes key health insurance metrics.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub →</a>
+          </li>
+          <li>
+            <h3>🧠 Predictive Model Study</h3>
+            <p>Master’s thesis project exploring health data and statistical modeling.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub →</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          You can find me on
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+          or send me an <a href="mailto:youremail@example.com">email</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> [Your Name]</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
