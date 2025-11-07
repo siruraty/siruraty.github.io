@@ -1,6 +1,9 @@
 # siruraty.github.io
-My site
 
+Im learning this stuff.
+
+From a template:
+___________________________
 This repository contains my GitHub Pages site for the siruraty.github.io site.
 
 ## Local preview
