@@ -80,3 +80,7 @@ img {
 .project {
   margin-bottom: 2rem;
 }
+
+/* Accent text color */
+.brightgreen {
+  color: #00FF66; /* bright green */
